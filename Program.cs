@@ -1,12 +1,4 @@
-﻿int i = Convert.ToInt32(Console.ReadLine());
-int sum = 0;
-while (i <= 100)
-{
-
-    i++;
-    sum++;
-    i = Convert.ToInt32(Console.ReadLine());
-}
-
-Console.WriteLine(sum);
-
+﻿int x =  Convert.ToInt32(Console.ReadLine());
+string [] array=new string[x];
+for (int y = 0; y < x; y++)
+    array[y]=Console.ReadLine();
