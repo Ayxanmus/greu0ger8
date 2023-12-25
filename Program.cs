@@ -1,4 +1,6 @@
-﻿int x =  Convert.ToInt32(Console.ReadLine());
-string [] array=new string[x];
-for (int y = 0; y < x; y++)
-    array[y]=Console.ReadLine();
+﻿int sum = 0;
+int[] numbers = new int[5]{ 1, 2, 3, 4, 5, };
+for (int i = 0; i < 5; i++)
+sum = sum + numbers[i];
+Console.WriteLine(sum);
+
